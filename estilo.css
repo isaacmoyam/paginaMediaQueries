@@ -1,0 +1,176 @@
+/*ISAAC MOYA*/
+
+/*LAYOUT*/
+
+body{
+	width:100%; /* contenido 1280px, contenedor: html(1280px) => 100%*/
+	background-image:url("imagenes/fondo.jpg");
+	background-size:cover;
+	background-repeat:no-repeat; 
+	margin:0;
+}
+
+header{ 
+	background-color:white; 
+	width:100%; /* contenido: 1280px, contenedor: body(1280px) => 100% */
+	padding:0.78125%; /* contenido: 10px, contenedor: body(1280px) => 1280px = 100% 10px = 0.78125% */
+	font-family:arial; 
+	font-weight:bold; 
+	overflow: auto;
+}
+
+header img{ 
+	width:11.71875%; /* contenido: 150px, contenedor: header(1280px) => 1280px = 100% 150px = 11.71875% */
+	float:left; 
+}
+
+header nav ul li{
+	float:left; 
+	margin:1.171875%; /* contenido: 15px, contenedor: header(1280px) => 1280px = 100% 15px = 1.171875% */
+	list-style-type:none;
+}
+
+header nav ul li:first-child{ 
+	margin:1.171875% 4.6875% 0 25%; /* contenido: 15px, contenedor: header(1280px) => 1280px = 100% 15px = 1.171875% */
+								    /* contenido: 60px, contenedor: header(1280px) => 1280px = 100% 60px = 4.6875% */
+								    /* contenido: 320px, contenedor: header(1280px) => 1280px = 100% 320px = 25% */
+}
+
+#titulo h1{
+	width:63.63636%; /* contenido: 700px, contenedor: section(1100px) => 1100px = 100% 700px = 63.63636% */
+	float:left;
+	font-size:3.90625vw; /* 50px = 3.90625vw */
+	margin: 0.909090909% 2.727272% 0 0.909090909% ; /* contenido: 10px, contenedor: section(1100px) => 1100px = 100% 10px = 0.909090909% */
+							   						/* contenido: 30px, contenedor: section(1100px) => 1100px = 100% 30px = 2.727272% */
+							   						/* contenido: 10px, contenedor: section(1100px) => 1100px = 100% 10px = 0.909090909%  */
+	color:#3216B0;
+	text-align:center;
+}
+
+#titulo img{
+	width:30.90909%; /* contenido: 340px, contenedor: section(1100px) => 1100px = 100% 340px = 30.90909% */
+	margin: 0.909090909%; /* contenido: 10px, contenedor: section(1100px) => 1100px = 100% 10px = 0.909090909% */
+}
+
+article{
+	background-color:rgba(255,255,255,0.29);
+	width:90.6250%; /* contenido: 1160px, contenedor: body(1280px) => 1280px = 100% 1160px = 90.6250% */
+	padding:1.56250%; /* contenido: 20px, contenedor: body(1280px) => 1280px = 100% 20px = 1.56250% */
+	margin:2.343750% 3.125%; /* contenido: 30px, contenedor: body(1280px) => 1280px = 100% 30px = 2.343750% */
+					         /* contenido: 40px, contenedor: body(1280px) => 1280px = 100% 40px = 3.125% */
+	border-radius:10px;
+	font-family:tahoma;
+}
+
+article section{
+	width:94.8275862069%; /* contenido: 1100px, contenedor: article(1160px) => 1160px = 100% 1100px = 94.8275862069% */
+	margin:0 auto 2.586206897%; /* contenido: 30px, contenedor: article(1160px) => 1160px = 100% 30px = 2.586206897% */
+	padding:1.293103448%; /* contenido: 15px, contenedor: article(1160px) => 1160px = 100% 15px = 1.293103448% */
+	border-radius:10px;
+	background-color:white;
+}
+
+#consecuencias p{
+	width:63.6363%; /* contenido: 700px, contenedor: section(1100px) => 1100px = 100% 700px = 63.6363% */
+	float:left;
+}
+
+#consecuencias img{
+	width:20%; /* contenido: 220px, contenedor: section(1100px) => 1100px = 100% 220px = 20% */
+	margin:0 0 0 7.272727%; /* contenido: 80px, contenedor: section(1100px) => 1100px = 100% 80px = 7.272727% */
+}
+
+table{
+	width:50%; /* contenido: 550px, contenedor: section(1100px) => 1100px = 100% 550px = 50% */
+	border-collapse:collapse; 
+	margin:0.909090% auto; /* contenido: 10px, contenedor: section(1100px) => 1100px = 100% 10px = 0.909090% */
+}
+
+footer{
+	background-color:#134ea8;
+	width:92.1875%; /* contenido: 1180px, contenedor: body(1280px) => 1280px = 100% 1180px = 92.1875% */
+	padding:0.78125%; /* contenido: 10px, contenedor: body(1280px) => 1280px = 100% 10px = 0.78125% */
+	color:white;
+	font-family:arial;
+	margin:0 3.125%; /* contenido: 40px, contenedor: body(1280px) => 1280px = 100% 40px = 3.125% */
+}
+
+form{
+	background-color:#2ba6ed;
+	margin:0 auto;
+	width:12.7118644068%; /* contenido: 150px, contenedor: footer(1180px) => 1180px = 100% 150px = 12.7118644068% */
+	text-align:center;
+	border-radius:10px;
+	padding:0.8474576271% 23.3050847458%; /* contenido: 10px, contenedor: footer(1180px) => 1180px = 100% 10px = 0.8474576271% */
+										  /* contenido: 275px, contenedor: footer(1180px) => 1180px = 100% 275px = 23.3050847458% */
+	font-family:Arial;
+	color:black;
+}
+
+/*ESTILOS DEL HEADER*/
+
+header nav ul li a{
+	text-decoration:none; 
+	color:white; 
+	background-color:#2255a8;
+	padding:15px 30px; /* contenido: 15px, contenedor: header(1280px) => 1280px = 100% 15px = 1.171875%  EL RESULTADO NO ES EL ESPERADO EN PORCENTAJES */
+					   /* contenido: 30px, contenedor: header(1280px) => 1280px = 100% 30px = 2.34375%  EL RESULTADO NO ES EL ESPERADO EN PORCENTAJES */
+	border-radius:9px;
+}
+
+header nav ul li a:hover{ 
+	background-color:#1d4a91; 
+}
+
+/*TITULOS DE APARTADOS*/
+
+.h1apartado{
+	font-size:1.5625vw; /* 20px = 1.5625vw */
+	color:orange;
+}
+
+/*FUENTE Y TAMAÑO DE LOS PARRAFOS*/
+
+p{
+	font-family:georgia;
+	font-size:1.015625vw; /* 13px = 1.015625vw */
+	text-align:justify; 
+	padding:0.7272727%; /* contenido: 8px, contenedor: section(1100px) => 1100px = 100% 8px = 0.7272727% */
+}
+
+/*APARTADO DE CONSECUENCIAS*/
+
+th,td{
+	padding:1.8214936248%; /* contenido: 10px, contenedor: tr(549px) => 549px = 100% 10px = 1.8214936248%  ESTE PADDING NO ME QUEDA IGUAL*/
+	text-align:center;
+	background-color:#f5b745;
+	border:solid 1px black;
+}
+th{
+	background-color:#127adb;
+}
+
+/*FORMULARIO*/
+
+footer img{
+	width:12.7118644068%; /* contenido: 150px, contenedor: footer(1180px) => 1180px = 100% 150px = 12.7118644068% */
+	float:left;
+	margin:0 11.864406780% 0 0; /* contenido: 140px, contenedor: footer(1180px) => 1180px = 100% 140px = 11.864406780% */
+}
+
+form input,textarea{
+	border-radius: 5px;
+	width:100%; /* contenido: 150px, contenedor: form(150px) => 150px = 100% 150px = 100% */
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	p {
+		font-size: 2.015625vw;
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+	p {
+		font-size: 1.515625vw;
+	}
+}
